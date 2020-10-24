@@ -18,7 +18,7 @@ const fillWithZero = (digits: number, number: number) : string => {
    const filled = '0'.repeat(digits - 1) + number 
    return filled.slice(filled.length - digits)
 }
-
+ 
 /**
  * 
  * @param targetDate ISOString for the date that the countdown will expire
